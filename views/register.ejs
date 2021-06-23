@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/loginstyle.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+    <section class="loginbg">
+        <div class="loginform">
+            <form action="/signup" method="POST">
+            <h1>Register Your Account</h1>
+            <br><br>
+               Enter your Name : <input class="txtbox" type="text" name="name" placeholder="Name" id="Name" required> </input><br><br> 
+               Enter your Email Id : <input class="txtbox" type="email" name="email" placeholder="Email" id="Email" required> </input><br><br> 
+               Enter a New Password : <input class="txtbox" type="password" name="password" placeholder="Password" id="Password" required> </input><br><br>
+               <div>
+                <button name="" type="submit" class="btn btn-dark">Submit</button>
+                <button type="button" class="btn btn-outline-dark">Cancel</button>
+                <p  class="aha">Already have an account? <span><a href="/login">Sign In</a></span></p>
+               </div>            
+            </form>
+        </div>
+    </section>
+</body>
+</html>

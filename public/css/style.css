@@ -1,0 +1,175 @@
+
+
+/* -----------------------------navbar----------------------- */
+
+.logo{
+    font-family: 'Lobster', cursive;
+    color: #198754;
+}
+.navspacer{
+    padding-right: 30px;
+}
+a:-webkit-any-link {
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+}
+/* -----------------------------intro------------------------- */
+
+.hero{
+    background-color: burlywood;
+}
+.intro{
+    background-image: url("/assets/intro.png");
+    max-width: 100%;
+    display: block;
+}
+.content{
+    text-align: left;
+    padding: 200px;
+    font-size: 50px;
+    padding-bottom: 45px;
+}
+.heropara{
+    padding-bottom: 200px;
+    margin-left: 500px;
+    margin-top: 50px;
+    font-size: 30px;
+}
+.lang{
+    max-width: 350px;
+    max-height: 380px;
+}
+.col-sm{
+    border-color: black;
+}
+/* ------------media----------- */
+
+    .primary-title {
+        font-size: 60px;
+    }
+    .secondary-title {
+        font-size: 48px;
+    }
+    .section-1,
+    .section-2,
+    .section-3,
+    .section-4 {
+        padding: 40px 0;
+    }
+    .wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    .wrapper img {
+        max-width: 60%;
+    }
+    .wrapper .text-group {
+        max-width: 40%;
+        padding: 0 10px;
+        margin: auto 0;
+    }
+    .section-2 .wrapper {
+        flex-direction: row-reverse;
+    }
+    .section-4 {
+        text-align: center;
+    }
+    .section-4 img {
+        margin: 0 auto;
+    }
+    .hero-content {
+        width: 600px;
+    }
+
+
+
+/*-------------------- form-------------------------- */
+.formdiv{
+    align-items: center;
+    padding: 120px;
+    padding-left: 540px;
+    
+    
+}
+.contact
+{
+    background-image: url("/assets/formbg.png");
+    max-width: 100%;
+    display: block;
+    color: azure;
+    align-items: center;
+}
+.formtxt{
+    width: 400px;
+    border-radius: 20px;
+    border-color: bisque;
+}
+
+/* -----------------footer---------------- */
+.footer {
+    background-color: #061f1dc0;
+  
+}
+
+.footer-top{
+    padding-top: 80px;
+    padding-bottom: 64px;
+    display: flex;
+    justify-content: center;
+}
+
+.heading {
+    font-size: 30px;
+    color: #198754;
+    margin-right: 100px;
+    
+}
+
+.country {
+    color: black;
+    font-size: 15px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+.section {
+    color: #198754;
+    font-size: 16px;
+    padding: 7px;
+}
+
+.section-link {
+    color: black;
+    font-size: 17px;
+    padding: 7px;
+}
+
+.product {
+    margin-left: 50px;
+    margin-right: 60px;
+}
+
+.resources {
+    margin-left: 100px;
+    margin-right: 60px;
+}
+
+.company {
+    margin-left: 50px;
+}
+
+.policies {
+    margin-left: 50px;
+}
+
+
+
